@@ -1,0 +1,29 @@
+:root {
+  --background: #1F2229;
+  --background2: #144C62;
+  --background-button: #E8E8E8;
+  --background-button2: #16A283;
+  --yellow: #FAE800;
+  --gray: #BEC2C6;
+  --color1: #144C62;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px "Poppins", Arial, sans-serif;
+  color: #FBFBFB;
+  background: var(--background);
+}
+
+input, textarea {
+  font-family: "Poppins";
+}
+
+button {
+  cursor: pointer;
+}
